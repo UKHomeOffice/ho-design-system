@@ -49,6 +49,7 @@
   {% block meta %}{% endblock %}
   {% block stylesheets %}
     {% include "govuk-prototype-kit/includes/stylesheets.html" %}
+    <link href="/public/stylesheets/ho-design.css" media="all" rel="stylesheet" type="text/css"/>
   {% endblock %}
   <style type="text/css">
     {% block homeOfficeKit_style %}
@@ -70,7 +71,7 @@
         <div class="hods-header__title">
             <nav class="hods-header__navigation search">
 						<ul aria-label="Top Level Navigation" class="hods-header__navigation-list">
-							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link" href="design-system">Design system</a></li>
+							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link-active" href="design-system">Design system</a></li>
 							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link" href="content-style-guide">Content style guide</a></li>
 							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link" href="manuals-and-standards">Manuals & standards</a></li>
               <input class="search-icon" type="text" placeholder="Search Design System"> 
@@ -80,12 +81,12 @@
       </div>
       <div class="secondary__navigation">
         <ul aria-label="secondary navigation" class="hods-header__navigation-list">
-							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Get started</a></li>
-							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Styles</a></li>
-							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="/design-system-components">Components</a></li>
-							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Patterns</a></li>
-							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Accessibility</a></li>
-							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Contribute</a></li>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Get started</a></li>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Styles</a></li>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="/design-system-components">Components</a></li>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Patterns</a></li>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Accessibility</a></li>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Contribute</a></li>
 						</ul>
         </div>
   </header>
