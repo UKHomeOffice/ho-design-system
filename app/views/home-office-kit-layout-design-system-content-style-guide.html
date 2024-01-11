@@ -53,9 +53,9 @@
   {% endblock %}
   <style type="text/css">
     {% block homeOfficeKit_style %}
+
     {% endblock %}
   </style>
-
 {% endblock %}
 
 {% block header %}
@@ -71,25 +71,26 @@
         <div class="hods-header__title">
             <nav class="hods-header__navigation search">
 						<ul aria-label="Top Level Navigation" class="hods-header__navigation-list">
-							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link" href="design-system">Design system</a></li>
-							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link" href="content-style-guide">Content style guide</a></li>
-							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link" href="manuals-and-standards">Manuals & standards</a></li>
-             <input class="search-icon" type="text" placeholder="Search UCD Manual">
-              
+							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link-comp-active" href="design-system">Design system</a></li>
+							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link" href="research">Research</a></li>
+							<li class="hods-header__navigation-list__item"><a class="hods-header__navigation-list__link" href="ucd-info-and-best-practice">UCD info and best practice</a></li>
+              <input class="search-icon" type="text" placeholder="Search UCD Manual"> 
 						</ul>
 					</nav>
         </div>
       </div>
       <div class="secondary__navigation">
         <ul aria-label="secondary navigation" class="hods-header__navigation-list">
-							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Accessibility</a></li>
-							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Design standards</a></li>
-							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="ethics-approval-and-submissions">Ethics approval and submissions</a></li>
-							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Prototyping</a></li>
-							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Labs</a></li>
-							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="">Brand guidelines</a></li>
-						</ul>
-        </div>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="/get-started">Get started</a></li>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="/styles">Styles</a></li>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary-active" href="/design-system-components">Components</a></li>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="/patterns">Patterns</a></li>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="/content-style-guide">Content style guide</a></li>
+							<li class="hods-header__sec-navigation-list__item"><a class="hods-header__navigation-list__link-secondary" href="/accessibility">Accessibility</a></li>
+							<li class="hods-header__sec-navigation-list__item active-component" ><a class="hods-header__navigation-list__link-secondary" href="content-style-guide">Content style guide</a></li>
+				</ul>
+      </div>
+    </div>
   </header>
 {% endblock %}
 
@@ -108,6 +109,7 @@
 {% endblock %}
 
 {% block footer %}
+<br>
 <br>
 <br>
 <br>
