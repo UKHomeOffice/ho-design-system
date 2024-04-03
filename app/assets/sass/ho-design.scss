@@ -726,6 +726,7 @@
 .hods-header__sec-navigation-list__item--active {
     border-bottom: 3px solid #0b0c0c !important;
     font-weight: bold
+
 }
 
 
@@ -778,6 +779,12 @@
     text-decoration: none
 }
 
+.hods-header__sec-navigation-list__item a:active{
+    border-left-width: 4px;
+    font-weight: bold;
+    margin-left: -14px;
+    padding-left: 10px;
+}
 
 //
 
