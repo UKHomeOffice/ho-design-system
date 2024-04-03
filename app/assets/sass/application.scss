@@ -90,6 +90,10 @@
   line-height: inherit;
 }
 
+.not-govuk-navigation-menu__list a:active {
+  color:pink;
+}
+
 @media (min-width: 40.0625em) {
 .govuk-list, .not-govuk-navigation-menu__list {
   margin-bottom: 20px;
