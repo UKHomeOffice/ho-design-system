@@ -8834,4 +8834,15 @@ option:nth-child(even) {
     color: #fff;
 }
 
+
+
+.not-govuk-navigation-menu__list__item--active {
+        border-left-width: 4px;
+        font-weight: bold;
+        margin-left: -14px;
+        padding-left: 10px;
+}
+  
+
+
 /*# sourceMappingURL=styles.aecb0610.chunk.css.map*/
