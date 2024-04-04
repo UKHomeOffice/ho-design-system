@@ -1,0 +1,68 @@
+{% extends "home-office-kit-layout-design-system-styles" %}
+
+{% block homeOfficeKit_style %}
+
+.not-govuk-navigation-menu__list__item{
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+<!--{% endblock %}-->
+
+{% block content %}
+<!-- Add your page content here -->    
+
+	<div class="govuk-grid-column-one-quarter">
+		<nav class="not-govuk-navigation-menu">
+
+			<ul class="not-govuk-navigation-menu__list">
+				<li class="not-govuk-navigation-menu__list__item"><a class="not-govuk-navigation-menu__list__link" href="#">Colour</a></li>
+				<li class="not-govuk-navigation-menu__list__item"><a class="not-govuk-navigation-menu__list__link" href="#"">Images</a></li>
+				<li class="not-govuk-navigation-menu__list__item"><a class="not-govuk-navigation-menu__list__link" href="#">Typography</a></li>
+			</ul>
+		</nav>
+	</div><!-- end govuk-grid-column-one-quarter -->
+
+	
+		<!-- add by YL 26/03-->
+	<div class="govuk-grid-column-three-quarters">
+			<h1>Styles</h1>
+			<p>We apply different styles to Home Office services and products depending on what domain they sit in and what kind of service it is.</p>
+			<h2 class="govuk-heading-m">Home Office design styles</h2>
+			<div class="govuk-grid-row">
+				<div class="govuk-grid-column-one-half">
+					<p>If your service:</p>
+					<ul>
+						<li>is internal, such as a caseworking system or admin service, and</li>
+						<li>sits on a homeoffice.gov.uk domain</li>
+					</ul>
+					<p>You should use:</p>
+					<ul>
+						<li><a class="govuk-link" href="/components?name=Page">Home Office page template</a></li>
+						<li><a class="govuk-link" href="https://fonts.google.com/specimen/Roboto#standard-styles">Roboto</a> font</li>
+						<li><a class="govuk-link" href="/styles/colour">Home Office colours</a></li>
+					</ul>
+				</div>
+				<div class="govuk-grid-column-one-half"><img src="https://design.homeoffice.gov.uk/public/images/ddat-events.c008d1bc.png" alt="Screenshot of a Home Office &#x27;Digital, Data and Technology Together&#x27; events page" class="image-examples" /><span class="image-caption">Digital, Data and Technolgy (DDaT) Together page on homeoffice.gov.uk</span>
+				</div>
+			</div>
+			
+			
+	</div><!--end govuk-grid-column-three-quarters-->
+
+
+
+
+        <!-- end edit by YL 26/03-->
+	
+
+ 
+
+
+
+<div class="govuk-grid-row">
+
+
+
+{% endblock %}
+</div>
